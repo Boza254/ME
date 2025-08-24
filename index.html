@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boaz Kinara Omari – Front-End Software Engineer</title>
+  <meta name="description" content="Boaz Kinara Omari – Front-End Software Engineer and writer. Portfolio with projects, skills, and contact from Nairobi, Kenya." />
+  <meta property="og:title" content="Boaz Kinara Omari – Front-End Software Engineer" />
+  <meta property="og:description" content="Portfolio showcasing front-end projects (React, JS), security-focused Java apps, and writing." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#4a6cf7" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkfNz8z6kDe0h6T6W1Z8G4U5T2sGq5r7Z4l9m04vA0CqYl6jV5xRL5zKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/favicon.ico" />
+</head>
+<body>
+  <header aria-label="Main Header">
+    <div class="container nav-wrap">
+      <div class="logo" aria-label="Boaz logo">Boaz<span>.</span></div>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+      <nav id="nav" aria-label="Primary Navigation">
+        <button class="close-btn" id="closeBtn" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="fullpage-section" aria-label="Hero">
+      <div class="container hero">
+        <div>
+          <h1>Hi, I'm <span class="highlight">Boaz Kinara Omari</span></h1>
+          <p class="intro">
+            Cybersecurity & Software Developer from Nairobi, Kenya. I build secure web and mobile applications using Java, C++, HTML, CSS, and MySQL. I’m also pursuing a Bachelor of Information Security and Forensics at KCA University.
+          </p>
+          <div class="cta" role="group" aria-label="Primary call to actions">
+            <a class="btn btn-primary" href="cv/Boaz_Kinara_Omari_CV.pdf" download aria-label="Download CV">
+              <i class="fas fa-download" aria-hidden="true"></i> Download CV
+            </a>
+            <a class="btn btn-outline" href="#projects"><i class="fas fa-rocket" aria-hidden="true"></i> See Projects</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="Screenshot 2025-07-16 114117.png" loading="lazy" width="280" height="280" alt="Portrait style avatar placeholder" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="fullpage-section" aria-label="About Boaz">
+      <div class="container about">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="divider" aria-hidden="true"></div>
+        <div class="grid-2" style="align-items:center;">
+          <div>
+            <img class="about-img" src="me.jpg" loading="lazy" alt="Developer at a laptop with code on screen" />
+          </div>
+          <div>
+            <span class="chip">• Web Developer   • Cybersecurity   • Freelancer</span>
+            <p>
+              I’m a versatile developer passionate about building secure and functional web applications, with skills in Java, C++, HTML, CSS, and MySQL.
+            </p>
+            <p>
+              Currently pursuing a Bachelor of Information Security and Forensics at KCA University, I combine my technical expertise with 2+ years of freelance writing and community moderation experience, bringing both creativity and security awareness into every project.
+            </p>
+            <p>
+              Comfortable collaborating across teams, translating requirements into delightful user interfaces, and shipping.
+            </p>
+            <a class="btn btn-outline" href="#contact"><i class="fas fa-paper-plane"></i> Get in touch</a>
+            <div class="card" style="margin-top:18px;">
+              <strong>Contact</strong>
+              <div style="margin-top:10px; display:grid; gap:10px;">
+                <div class="contact-row"><i class="fas fa-location-dot" aria-hidden="true"></i> Nairobi, Kenya</div>
+                <div class="contact-row"><i class="fas fa-phone" aria-hidden="true"></i> +254 707 741 585</div>
+                <div class="contact-row"><i class="fas fa-envelope" aria-hidden="true"></i>boazomari114@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section id="education" class="fullpage-section" aria-label="Education and Certifications">
+      <div class="container">
+        <h2 class="section-title">Skills & <span class="highlight">Certifications</span></h2>
+        <div class="divider" aria-hidden="true"></div>
+        
+        <div class="education-grid">
+          <div class="card">
+            <div class="edu-title">BSc. Information Security & Forensics</div>
+            <div class="edu-meta">KCA University • Ongoing</div>
+            <p>Focus: web security, digital forensics, and secure systems.</p>
+          </div>
+          
+          <div class="card">
+            <div class="edu-title">Front-End Development</div>
+            <div class="edu-meta">Self-directed + online courses</div>
+            <p>Projects-first learning with HTML, CSS, JavaScript, React.</p>
+            
+          </div>
+          
+          <div class="card">
+            <div class="edu-title">C/C++ & Java Foundations</div>
+            <div class="edu-meta">Coursework & projects</div>
+            <p>Low-level thinking, algorithms, and Android/Java basics.</p>
+           
+          </div>
+          
+          <!-- New Certifications -->
+          <div class="card">
+            <div class="edu-title">Introduction to Modern AI</div>
+            <div class="edu-meta">Networking Academy • Aug 22, 2025</div>
+            <p>Learn to use AI in daily life, craft effective prompts, and use computer vision.</p>
+            <button class="btn btn-outline view-cert" data-cert="ai-certificate">
+              <i class="fas fa-eye"></i> View Certificate
+            </button>
+          </div>
+          
+          <div class="card">
+            <div class="edu-title">CSS Essentials</div>
+            <div class="edu-meta">Networking Academy • Aug 22, 2025</div>
+            <p>Master CSS to style and design beautiful, responsive websites.</p>
+            <button class="btn btn-outline view-cert" data-cert="css-certificate">
+              <i class="fas fa-eye"></i> View Certificate
+            </button>
+          </div>
+          
+          <div class="card">
+            <div class="edu-title">HTML Essentials</div>
+            <div class="edu-meta">Networking Academy • Aug 22, 2025</div>
+            <p>Learn the fundamentals of HTML to create structured web pages.</p>
+            <button class="btn btn-outline view-cert" data-cert="html-certificate">
+              <i class="fas fa-eye"></i> View Certificate
+            </button>
+          </div>
+          
+          <div class="card">
+            <div class="edu-title">Network Technician Career Path</div>
+            <div class="edu-meta">KCA UNIVERSITY • Jul 27, 2024</div>
+            <p>Learn how networks work and gain employable skills to start your tech career.</p>
+            <button class="btn btn-outline view-cert" data-cert="network-certificate">
+              <i class="fas fa-eye"></i> View Certificate
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="fullpage-section" aria-label="Projects">
+      <div class="container">
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        <div class="divider" aria-hidden="true"></div>
+
+        <div class="projects-grid">
+          <!-- DEMS / SecureEvidenceSystem -->
+          <article class="card project" aria-label="Digital Evidence Management System project">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?q=80&w=1200&auto=format&fit=crop" loading="lazy" alt="Encrypted files and shield icon concept" /></div>
+            <div style="padding:22px;">
+              <h3>DEMS – Secure Evidence System</h3>
+              <p>Java web app for secure evidence storage with AES-256 file encryption, SHA-256 passwords, MySQL, and role-based access (Admin/Investigator).</p>
+              <div class="stack">
+                <span class="tag">Java (Servlets)</span><span class="tag">MySQL</span><span class="tag">AES-256</span>
+              </div>
+              <a class="link" href="#" aria-label="View DEMS project (placeholder)">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- ATM App -->
+          <article class="card project" aria-label="ATM Management Android app">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1559027615-5eeea00d85f9?q=80&w=1200&auto=format&fit=crop" loading="lazy" alt="Mobile banking interface concept" /></div>
+            <div style="padding:22px;">
+              <h3>ATM Management System (Android)</h3>
+              <p>Android app in Java for account auth, withdrawals, deposits, and transaction history with local persistence.</p>
+              <div class="stack">
+                <span class="tag">Java</span><span class="tag">Android Studio</span><span class="tag">SQLite</span>
+              </div>
+              <a class="link" href="#" aria-label="View ATM app project (placeholder)">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Password Strength Analyzer -->
+          <article class="card project" aria-label="Password Strength Analyzer project">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1510511233900-1982d92bd835?q=80&w=1200&auto=format&fit=crop" loading="lazy" alt="Password security abstract" /></div>
+            <div style="padding:22px;">
+              <h3>Password Strength Analyzer</h3>
+              <p>Web app + C++ module storing results in MySQL. Analyzes password entropy and common patterns with clear UX feedback.</p>
+              <div class="stack">
+                <span class="tag">HTML/CSS/JS</span><span class="tag">C++</span><span class="tag">MySQL</span>
+              </div>
+              <a class="link" href="#" aria-label="View Password Analyzer project (placeholder)">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Portfolio -->
+          <article class="card project" aria-label="Portfolio website project">
+            <div class="thumb"><img src="https://images.unsplash.com/photo-1559027615-5dde9be3e8f3?q=80&w=1200&auto=format&fit=crop" loading="lazy" alt="Minimal portfolio UI mockup" /></div>
+            <div style="padding:22px;">
+              <h3>This Portfolio Website</h3>
+              <p>Responsive, accessible, and performance-minded portfolio built with semantic HTML, CSS, and vanilla JS.</p>
+              <div class="stack">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+              </div>
+              <a class="link" href="#home" aria-label="Back to top">View Live <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fullpage-section" aria-label="Contact Boaz">
+      <div class="container">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <div class="divider" aria-hidden="true"></div>
+        <div class="contact-wrap">
+          <div class="card">
+            <h3 style="margin-bottom:8px;">Let's build something great</h3>
+            <p class="intro">I'm open to roles, freelance, and collaborations. Prefer email? Use the form or reach me directly.</p>
+            <div class="contact-info" style="margin-top:16px;">
+              <div class="contact-row"><i class="fas fa-location-dot"></i> Nairobi, Kenya</div>
+              <div class="contact-row"><i class="fas fa-phone"></i> +254 707 741 585</div>
+              <div class="contact-row"><i class="fas fa-envelope"></i> bozakindom@gmail.com</div>
+              <div class="contact-row"><i class="fab fa-github"></i> <a class="link" href="#" aria-label="GitHub placeholder">GitHub (soon)</a></div>
+              <div class="contact-row"><i class="fab fa-linkedin"></i> <a class="link" href="#" aria-label="LinkedIn placeholder">LinkedIn (soon)</a></div>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Replace action with your Formspree/EmailJS endpoint -->
+            <form class="form" action="https://formspree.io/f/YOUR_ID" method="POST">
+              <div class="row-2">
+                <div>
+                  <label for="name">Your Name</label>
+                  <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+                </div>
+                <div>
+                  <label for="email">Your Email</label>
+                  <input id="email" name="email" type="email" placeholder="jane@example.com" required />
+                </div>
+              </div>
+              <div>
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" placeholder="Let's work together" />
+              </div>
+              <div>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit" style="width:100%"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer aria-label="Footer">
+    <div class="container">
+      <p>© <span id="year"></span> Boaz Kinara Omari. All rights reserved.</p>
+      <div class="social" role="group" aria-label="Social links">
+        <a href="#" aria-label="GitHub placeholder"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn placeholder"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:bozakindom@gmail.com" aria-label="Email Boaz"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
