@@ -197,6 +197,11 @@ function showCertificate(certType) {
       imagePath = 'certificates/network-certificate.jpg';
       downloadName = 'Network-Certificate';
       break;
+      case 'Cyber-certificate':
+      title = 'Introduction to Cyber Security';
+      imagePath = 'certificates/Cyber Intro.jpg';
+      downloadName = 'Cyber-certificate';
+      break;
     default:
       title = 'Certificate';
       imagePath = '';
